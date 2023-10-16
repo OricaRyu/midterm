@@ -33,7 +33,7 @@ img{
 
 #figure1, #figure2{
     background-color: #d25151;
-    width: 40%;
+    width: 45%;
     height: 60%;
     margin: auto;
     padding: 10px;
@@ -58,10 +58,6 @@ figcaption{
     padding: 5px;
 }
 
-header, footer{
-    background-color: rgba(224, 95, 192, 0.8);
-}
-
 a{
     color: hsl(340, 60%, 80%);
 }
@@ -73,4 +69,8 @@ a:hover{
 ul{
     list-style-type: black circle;
     line-height: 1.5em;
+}
+
+header, footer{
+    background-color: rgba(224, 95, 192, 0.8);
 }
