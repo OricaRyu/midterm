@@ -1,0 +1,76 @@
+/*Sébastien Violette, Student Number: 8926847*/
+body{
+   width: 100%;
+   max-width: 1200px;
+   margin: auto;
+   font: normal italic bold 12px/1.5 Arial, Helvetica, Sans-serif;
+}
+
+.structural{
+    margin: 10px;
+    padding: 10px;
+}
+
+h1{
+    color: rgb(0,0,255);
+    font-size: 30px;
+}
+
+h2{
+    color: hsla(250, 60%, 30%, 0.8);
+    font-size: 20px;
+}
+
+main{
+    height: 70vh;
+}
+
+img{
+    border: 5px, solid pink;
+    width: 90%;
+    height: 80%;
+}
+
+#figure1, #figure2{
+    background-color: #d25151;
+    width: 40%;
+    height: 60%;
+    margin: auto;
+    padding: 10px;
+}
+
+#figure1{
+    float: left;
+}
+
+#figure2{
+    float: right;
+}
+
+section{
+    clear: both;
+}
+
+figcaption{
+    font-weight: 500;
+    font-size: 14px;
+    color: blue;
+    padding: 5px;
+}
+
+header, footer{
+    background-color: rgba(224, 95, 192, 0.8);
+}
+
+a{
+    color: hsl(340, 60%, 80%);
+}
+
+a:hover{
+    color: green;
+}
+
+ul{
+    list-style-type: black circle;
+    line-height: 1.5em;
+}
